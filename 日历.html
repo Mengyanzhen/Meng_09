@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    
+    li {
+      list-style: none;
+    }
+    
+    .select-date {
+      margin: 100px auto;
+      width: 266px;
+      height: 229px;
+      border: 2px solid #58abff;
+    }
+    
+    .week-list {
+      height: 35px;
+      width: 100%;
+      border-bottom: 1px solid #c8cacc;
+    }
+    
+    .week-list li {
+      float: left;
+      height: 35px;
+      width: 35px;
+      text-align: center;
+      line-height: 35px;
+      font-size: 15px;
+      margin: 0 1px;
+    }
+    
+    .week-list li:nth-child(7) {
+      color: #e02d2d;
+    }
+    
+    .week-list li:nth-child(1) {
+      color: #e02d2d;
+    }
+    
+    .tabel-line {
+      height: 35px;
+      border-bottom: 1px solid #c8cacc;
+    }
+    
+    .tabel-ul {
+      height: 35px;
+    }
+    
+    .tabel-li {
+      height: 31px;
+      width: 31px;
+      text-align: center;
+      line-height: 31px;
+      float: left;
+      border: 2px solid #fff;
+      margin: 0 1px;
+    }
+    
+    .tabel-li.preDays {
+      color: #bfbfbf;
+    }
+    
+    .tabel-li.nextDay {
+      color: #bfbfbf;
+    }
+    
+    .tabel-li:hover {
+      border-color: #ffbb00;
+    }
+    
+    .tabel-li.showClick {
+      border-color: #ffbb00;
+    }
+    
+    .tabel-li.active {
+      background: #ffbb00;
+      color: #fff !important;
+      border-color: #ffbb00;
+    }
+    
+    .tabel-li.weekColor {
+      color: #e02d2d;
+    }
+    
+</style>
+</head>
+<body>
+    <div class="select-date">
+        <div class="select-date-body">
+          <ul class="week-list">
+            <li>日</li>
+            <li>一</li>
+            <li>二</li>
+            <li>三</li>
+            <li>四</li>
+            <li>五</li>
+            <li>六</li>
+          </ul>
+          <ul class="day-tabel">
+            <li class="tabel-line">
+              <ul class="tabel-ul">
+                <li class="tabel-li preDays">30</li>
+                <li class="tabel-li">1</li>
+                <li class="tabel-li">2</li>
+                <li class="tabel-li">3</li>
+                <li class="tabel-li active">4</li>
+                <li class="tabel-li">5</li>
+                <li class="tabel-li weekColor">6</li>
+              </ul>
+            </li>
+            <li class="tabel-line">
+              <ul class="tabel-ul">
+                <li class="tabel-li weekColor">7</li>
+                <li class="tabel-li">8</li>
+                <li class="tabel-li">9</li>
+                <li class="tabel-li">10</li>
+                <li class="tabel-li">11</li>
+                <li class="tabel-li">12</li>
+                <li class="tabel-li weekColor">13</li>
+              </ul>
+            </li>
+            <li class="tabel-line">
+              <ul class="tabel-ul">
+                <li class="tabel-li weekColor">14</li>
+                <li class="tabel-li">15</li>
+                <li class="tabel-li">16</li>
+                <li class="tabel-li">17</li>
+                <li class="tabel-li">18</li>
+                <li class="tabel-li">19</li>
+                <li class="tabel-li weekColor">20</li>
+              </ul>
+            </li>
+            <li class="tabel-line">
+              <ul class="tabel-ul">
+                <li class="tabel-li weekColor">21</li>
+                <li class="tabel-li">22</li>
+                <li class="tabel-li">23</li>
+                <li class="tabel-li">24</li>
+                <li class="tabel-li">25</li>
+                <li class="tabel-li">26</li>
+                <li class="tabel-li weekColor">27</li>
+              </ul>
+            </li>
+            <li class="tabel-line">
+              <ul class="tabel-ul">
+                <li class="tabel-li weekColor">28</li>
+                <li class="tabel-li">29</li>
+                <li class="tabel-li">30</li>
+                <li class="tabel-li">31</li>
+                <li class="tabel-li nextDay">1</li>
+                <li class="tabel-li nextDay">2</li>
+                <li class="tabel-li nextDay">3</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+</body>
+</html>
